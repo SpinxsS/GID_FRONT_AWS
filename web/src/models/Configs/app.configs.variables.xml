@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--<host>localhost:8080/Inpetel-1.0.0</host> -->
+   <!-- <host>pv30067:8080/Inpetel-1.0.1</host> DESARROLLO-->
+    <!--<host>pv10142:8080/Inpetel-1.0.1</host> PRODUCCION-->
+  <host>localhost:8086</host>  -->
+</root>
