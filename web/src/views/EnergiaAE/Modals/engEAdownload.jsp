@@ -10,7 +10,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <!-- CODE 
+                
                 <div class="form-group">
                     <div class="row">
                         <div class="col-lg-6">
@@ -22,7 +22,7 @@
                             <input type="date" class="form-control" id="endTime">
                         </div>
                     </div>
-                </div>-->
+                </div>
                 <div class="form-group">
                     <div class="col-lg-12">
                         <div id="loadingXLS"></div>

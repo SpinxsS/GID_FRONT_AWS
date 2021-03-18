@@ -25,25 +25,7 @@ $("#btnReport").on('click', function (){
     }
 });
 /*TEST  */
-$("#down").on('click', function (){
-    var fhi= $("#startTime").val();
-    var fhf = $("#endTime").val()
-    $("#loadingXLS").html("<h3 class='text-center'><img src='../../template/img/load.gif' width='100' height='80'></h3>");
-        $.ajax({
-            url:'http://' + readConfig() + '/reportes/EnergiaAE/20201201/20201231',
-            type:'GET'
-        }).done(function (data){
-           $("#loadingLBS").html("");
-            if (data.length == 0) {
-                toastr.error("Error");
-                $("#loadingLBS").html("<div class='alert alert-danger' role='alert'><button type='button' class='close' data-dismiss='alert'>x</button> Error, Intente nuevamente</div>");
-            } else {
-                toastr.success("Generado correctamente");
-                $("#loadingLBS").html("<div class='alert alert-success' role='alert'><button type='button' class='close' data-dismiss='alert'>x</button> Descargado correctamente</div>");
-            }
- 
-        });
-});
+
 
 
 /*SELECTION CLIENTE*/

@@ -29,6 +29,20 @@
                             <!-- End Modal -->
                         </div>
                     </div>
+                 
+                    <div class="col-lg-6">
+                        <div clas="form-group">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-info btn-sm text-center" data-toggle="modal" data-target="#loadDataBase">
+                                    Descarga Excel
+                                </button>
+                            </div>
+                            <!-- Modal -->
+                            <div id="loadingEAXLS"></div>
+                            <!-- End Modal -->
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="form-group">
@@ -64,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="form-group">
@@ -77,4 +91,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
