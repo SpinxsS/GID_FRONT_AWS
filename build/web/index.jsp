@@ -59,7 +59,7 @@
             </div>
         </div>
     </body>
-    <script src="src/template/js/jquery-3.3.1.js"></script>
+    <script src="src/template/js/jquery-3.6.0.js"></script>
     <script src="src/template/js/bootstrap.min.js"></script>
     <script src="src/template/js/toastr.min.js"></script>
     <script src="src/template/js/select2.min.js"></script>

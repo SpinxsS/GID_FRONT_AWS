@@ -17,5 +17,10 @@
         <libraries xmlns="http://www.netbeans.org/ns/ant-project-libraries/1">
             <definitions>.\lib\nblibraries.properties</definitions>
         </libraries>
+        <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1">
+            <library name="jquery" version="3.6.0">
+                <file localPath="web/src/template/js/jquery/jquery.js" path="jquery.js"/>
+            </library>
+        </libraries>
     </configuration>
 </project>

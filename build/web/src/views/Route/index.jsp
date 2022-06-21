@@ -32,17 +32,17 @@
     <body>
         <input type="hidden" id="emptyUserDIKEY" value="<% out.println(keyId); %>">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-           <!-- <a class="navbar-brand" href="#"><img src="../../template/img/img_inpetel_blacn.png" id="imgLogin"></a>
+            <a class="navbar-brand" href="#"><img src="../../template/img/img_inpetel_blacn.png" id="imgLogin"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>-->
-             <a class='navbar-brand' href='#'><img src='../../template/img/img_inpetel_blacn.png' id='imgLogin'></a>
+            </button>
+            <!-- <a class='navbar-brand' href='#'><img src='../../template/img/img_inpetel_blacn.png' id='imgLogin'></a>
             <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#testbarNav' aria-controls='testbarNav' aria-expanded='false' aria-label='Toggle navigation'>
                 <span class='navbar-toggler-icon'></span>
-            </button>
+            </button>-->
            <div class="collapse navbar-collapse" id="testbarNav"> 
             </div> 
-           <!-- <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="vrUsers">Usuarios</a>
@@ -87,8 +87,8 @@
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle dropdown-item">Potencia Gestionada</a>
 
                             <ul class="dropdown-menu">  
-                                <!--<a class="dropdown-item"  href="#" >Gestionada</a>-->
-                               <!-- <a class="dropdown-item" href="#" id="repGestionadaCircuito">Circuito</a>
+                                <a class="dropdown-item"  href="#" >Gestionada</a>
+                                <a class="dropdown-item" href="#" id="repGestionadaCircuito">Circuito</a>
                                 <a class="dropdown-item" href="#" id="repGestionadaControlador">Controlador</a>
                                 <a class="dropdown-item" href="#" id="repGestionadaCliente">Cliente</a>
                             </ul>
@@ -125,13 +125,13 @@
                         <% out.println(nombres); %>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <!--  <a class="dropdown-item ac" id="perfil" ack="" href="#">
+                          <a class="dropdown-item ac" id="perfil" ack="" href="#">
                               Perfil
                           </a>  
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item vrs" id="version" href="#">
                               Acerca de
-                          </a> -->
+                          </a> 
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" id="lgTou">Cerrar Sesion</a> 
                     </div>
@@ -142,7 +142,7 @@
             <div id="loading" class="mt-4"></div>
         </div>
     </body>
-    <script src="../../template/js/jquery-3.3.1.js"></script>
+    <script src="../../template/js/jquery-3.6.0.js"></script>
     <script src="../../template/js/jquery.dataTables.min.js"></script>
     <script src="../../template/js/dataTables.buttons.min.js"></script>
     <script src="../../template/js/select2.min.js"></script>
