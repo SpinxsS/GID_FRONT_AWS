@@ -1,6 +1,5 @@
-$("#loadingEAXLS").load("../../views/EnergiaAE/Modals/engEAdownload.jsp");
-
 /* ENG_AE */
+
 $("#btnReport").on('click', function (){
     var id = $("#listDisp").val();
     var fhi= $("#startTime").val();
@@ -21,13 +20,9 @@ $("#btnReport").on('click', function (){
             }else{
                 valueReport(data);
             }
-        });
+        })
     }
-});
-/*TEST  */
-
-
-
+})
 /*SELECTION CLIENTE*/
 $("#listClient").change(function (e) {
     var id = $(this).val();
@@ -77,7 +72,6 @@ function valueReport(data){
     });
     $("#loadTableEnergy").html(tableAll(response));
 }
-
 /* LODA TABLE */
 function tableReport(cod, fh,v00, v01, v02, v03, v04, v05, v06, v07, v08, v09, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23 ){
     var val = "<tr>\n\

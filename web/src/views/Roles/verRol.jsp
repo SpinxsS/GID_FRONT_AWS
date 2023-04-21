@@ -1,11 +1,12 @@
 <script src="../../models/Configs/app.configs.read.js"></script>
 <script src="../../models/Roles/app.ver.Rol.js"></script>
-<% HttpSession obj = request.getSession(true); %>
+
 <div class="row">
     <div class="col-lg-12 col-sm-12">
         <div class="form-group">
             <h4 class="text-center">Roles</h4>
-            <input type="hidden" id="emptyUserDIKEY" value="<% out.println(obj.getAttribute("IDKEY").toString());%>">
+            <input type="hidden" id="emptyUserDIKEY" value="2
+">
         </div>
     </div>
     <div class="col-lg-12 col-sm-12">
@@ -82,7 +83,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabelUC">Modificar Rolw</h5>
+                <h5 class="modal-title" id="modalLabelUC">Modificar Rol</h5>
                 <input type="hidden" id="idtm">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

@@ -42,7 +42,7 @@
             </button>-->
            <div class="collapse navbar-collapse" id="testbarNav"> 
             </div> 
-            <div class="collapse navbar-collapse" id="navbarNav">
+         <!--    <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="vrUsers">Usuarios</a>

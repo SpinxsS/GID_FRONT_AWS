@@ -50,22 +50,22 @@ $("#progVsprog").on('click', function (){
    /*CARGO APLICACION */ 
    $("#loading").load("../../views/Programacion/verComparatePrg.jsp");
 });
-/*REPORTES PG*/
+/*REPORTES PG
 $("#repGestionada").on('click', function () {
     $("#loading").load("../../views/Reportes/PotenciaGestionada/report.jsp");
 });
-/*REPORTES PG - CIRCUITO*/
+/*REPORTES PG - CIRCUITO
 $("#repGestionadaCircuito").on('click', function () {
     $("#loading").load("../../views/Reportes/PotenciaGestionada/report.circuito.jsp");
 });
-/*REPORTES PG - CONTROLADOR*/
+/*REPORTES PG - CONTROLADOR
 $("#repGestionadaControlador").on('click', function () {
     $("#loading").load("../../views/Reportes/PotenciaGestionada/report.controlador.jsp");
 });
-/*REPORTES PG - CLIENTE*/
+REPORTES PG - CLIENTE
 $("#repGestionadaCliente").on('click', function () {
     $("#loading").load("../../views/Reportes/PotenciaGestionada/report.cliente.jsp");
-});
+});*/
 /*REPORTES ENG xEDS*/
 $("#engGestio").on('click', function () {
     $("#loading").load("../../views/Reportes/EnergiaGestionada/engUnica.jsp");
@@ -74,10 +74,10 @@ $("#engGestio").on('click', function () {
 $("#engGestioTT").on('click', function () {
     $("#loading").load("../../views/Reportes/EnergiaGestionada/engTotal.jsp");
 });
-/*REPORTE VALORES INSTANTANEOS*/
+/*REPORTE VALORES INSTANTANEOS
 $("#valInsta").on('click', function () {
     $("#loading").load("../../views/Reportes/ValoresInstantaneos/report.jsp");
-});
+});*/
 /*REPORTE VALORES INSTANTANEOS*/
 $("#vrUsers").on('click', function () {
     $("#loading").load("../../views/Usuarios/verUsuario.jsp");
@@ -98,10 +98,10 @@ $("#MasiveEventsRD").on('click', function (){
 $("#vrRoles").on('click', function () {
     $("#loading").load("../../views/Roles/verRol.jsp");
 });
-/* MODULO RD -> SEÑALES SIMPLES */
+/* MODULO RD -> SEÑALES SIMPLES 
 $("#EventsRD").on('click', function(){
     $("#loading").load("../../views/ModuloRD/verSignalSimple.jsp");
-});
+});*/
 /* MODULO ENERGIA ACTIVA */
 $("#vrengUnica").on('click', function(){
     $("#loading").load("../../views/EnergiaAE/engUnica.jsp");
